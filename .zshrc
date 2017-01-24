@@ -53,9 +53,9 @@ dir_in_title() { settitle $PWD }
 chpwd_functions=(dir_in_title)
 
 # root prompt
-[ $UID = 0 ] && export PROMPT=$'%{\e[0;31m%}[%{\e[0m%}%n:%{\e[0m%}%~%{\e[0;31m%}]%{\e[0m%}%# '
+[ $UID = 0 ] && export PROMPT=$'%{\e[0;31m%}[%{\e[0m%}%n@%m:%{\e[0m%}%~%{\e[0;31m%}]%{\e[0m%}%# '
 # normal user prompt
-[ $UID != 0 ] && export PROMPT=$'%{\e[0;36m%}[%{\e[0m%}%n:%{\e[0m%}%~%{\e[0;36m%}]%{\e[0m%}%# '
+[ $UID != 0 ] && export PROMPT=$'%{\e[0;36m%}[%{\e[0m%}%n@%m:%{\e[0m%}%~%{\e[0;36m%}]%{\e[0m%}%# '
 
 # timestamp on the right
 RPROMPT='[%*]'
