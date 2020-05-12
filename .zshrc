@@ -63,9 +63,12 @@ RPROMPT='[%*]'
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
-
 export PATH=${JAVA_HOME}/bin:/usr/local/sbin:$PATH
+
+# Pyenv
+PATH=$(pyenv root)/shims:$PATH
 
 # https://github.com/zsh-users/zsh-syntax-highlighting
 # Must always be the last line of this file
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
