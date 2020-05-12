@@ -23,13 +23,13 @@ export WORDCHARS='*?_[]~=&;!#$%^(){}'
 ## end zsh bindkeys
 
 export CLICOLOR=1
-export EDITOR=vim
-
+export EDITOR=mvim
 
 alias gits="git branch -v; printf \"\n\"; gs || git status"
 alias ls="ls -Fa"
 alias lsl="ls -Fal"
 alias sl="ls"
+alias htop="sudo htop"
 
 # https://github.com/tldr-pages/tldr-python-client
 export TLDR_COLOR_BLANK="white"
@@ -46,6 +46,10 @@ eval "$(scmpuff init -s)"
 
 # Assuming it's not Sublime Text 2
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+# Assuming we always want MacVim
+# https://formulae.brew.sh/formula/macvim#default
+alias vim="mvim"
 
 # Tab should say the current pwd, not just "zsh"
 settitle() { printf "\e]0;$@\a" }
@@ -71,4 +75,3 @@ PATH=$(pyenv root)/shims:$PATH
 # https://github.com/zsh-users/zsh-syntax-highlighting
 # Must always be the last line of this file
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
