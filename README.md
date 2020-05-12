@@ -28,9 +28,25 @@ pyenv global 3.6.10
 
 I use https://github.com/junegunn/vim-plug because it's more lightweight than Vundle.
 
+You'll need to open `vim` (which is aliased to `mvim` for MacVim in my `.zshrc`), then run `:PlugInstall`.
+
+## YouCompleteMe
+
 To get YouCompleteMe to work, you need to make sure you're using Macvim (installed with Homebrew). Then, build it on your machine.
 
 ```sh
 cd ~/.vim/plugged/youcompleteme
 ./install.py
+```
+
+## Solarized Dark
+
+Follow the instructions here: https://vimawesome.com/plugin/vim-colors-solarized-ours
+
+Basically, after `:PlugInstall` has run:
+
+```sh
+cd ~/.vim/plugged/vim-colors-solarized
+mkdir ~/.vim/colors
+mv solarized.vim ~/.vim/colors
 ```
