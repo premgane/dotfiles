@@ -5,7 +5,7 @@ Primarily, this repo assumes that the new machine runs macOS/OSX.
 
 # Installed utils
 
-First, install Homebrew.
+First, install [Homebrew](https://brew.sh/).
 
 Then, use Brew to install the following:
 
