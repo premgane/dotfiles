@@ -3,7 +3,15 @@ A repository containing all `.dotfiles` necessary to set up a new machine
 
 Primarily, this repo assumes that the new machine runs macOS/OSX.
 
+# Turn off Rootless
+
+MacOS comes with System Integrity Protection turned on.
+
+[Turn it off before doing anything else.](https://www.macworld.co.uk/how-to/mac/how-turn-off-mac-os-x-system-integrity-protection-rootless-3638975/)
+
 # Installed utils
+
+## Homebrew
 
 First, install [Homebrew](https://brew.sh/).
 
@@ -12,6 +20,36 @@ Then, use Brew to install the following:
 ```sh
 brew install ruby scmpuff sqlite thefuck macvim pyenv git zsh go ncurses zsh-syntax-highlighting heroku node htop
 ```
+
+## Other useful utils and daemons
+
+* https://www.mozilla.org/en-US/firefox/new/
+* https://freedom.to/dashboard
+* https://nordvpn.com/
+* [Amphetamine for easy screen sleep management](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
+* [FlyCut clipboard manager](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12)
+* https://www.spectacleapp.com/
+* https://justgetflux.com/
+* https://keybase.io/download
+* https://www.dropbox.com/downloading
+* https://www.mowglii.com/itsycal/ -- hide icon and use `E, MMM dd | h:mm`
+
+## Some useful Firefox extensions
+
+* [Amazon Smile](https://addons.mozilla.org/en-US/firefox/addon/amazon-smile/reviews/)
+* [Clear URLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/reviews/)
+* [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/reviews/)
+* [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/reviews/)
+* [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/reviews/)
+* [Google Search Link Fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/reviews/)
+* [Instapaper](https://addons.mozilla.org/en-US/firefox/addon/instapaper-official/reviews/)
+* [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/reviews/)
+* [Library Extension](https://addons.mozilla.org/en-US/firefox/addon/libraryextension/reviews/)
+* [Momentum](https://addons.mozilla.org/en-US/firefox/addon/momentumdash/reviews/)
+* [EFF Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/reviews/)
+* [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/reviews/)
+* [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/reviews/)
+
 
 # Use the latest Python version
 
