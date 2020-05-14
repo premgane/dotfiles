@@ -94,3 +94,4 @@ cd ~/.vim/plugged/vim-colors-solarized
 mkdir ~/.vim/colors
 mv solarized.vim ~/.vim/colors
 ```
+
