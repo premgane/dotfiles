@@ -45,7 +45,7 @@ eval $(thefuck --alias wups)
 eval "$(scmpuff init -s)"
 
 # Assuming it's not Sublime Text 2
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias subl="open -a Sublime\ Text"
 
 # Assuming we always want MacVim
 # https://formulae.brew.sh/formula/macvim#default
@@ -75,3 +75,4 @@ PATH=$(pyenv root)/shims:$PATH
 # https://github.com/zsh-users/zsh-syntax-highlighting
 # Must always be the last line of this file
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
