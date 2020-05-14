@@ -73,9 +73,13 @@ You'll need to open `vim` (which is aliased to `mvim` for MacVim in my `.zshrc`)
 To get YouCompleteMe to work, you need to make sure you're using Macvim (installed with Homebrew). Then, build it on your machine.
 
 ```sh
+brew install cmake macvim python
+brew install mono go nodejs
 cd ~/.vim/plugged/youcompleteme
-./install.py
+./install.py --all
 ```
+
+[Full installation instructions here.](https://github.com/ycm-core/YouCompleteMe#installation)
 
 ## Solarized Dark
 
