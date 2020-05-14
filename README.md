@@ -9,7 +9,7 @@ MacOS comes with System Integrity Protection turned on.
 
 [Turn it off before doing anything else.](https://www.macworld.co.uk/how-to/mac/how-turn-off-mac-os-x-system-integrity-protection-rootless-3638975/)
 
-# Installed utils
+# Install utils
 
 ## Homebrew
 
