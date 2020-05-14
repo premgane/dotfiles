@@ -66,6 +66,8 @@ pyenv global 3.6.10
 
 I use https://github.com/junegunn/vim-plug because it's more lightweight than Vundle.
 
+[Installation instructions](https://github.com/junegunn/vim-plug#installation)
+
 You'll need to open `vim` (which is aliased to `mvim` for MacVim in my `.zshrc`), then run `:PlugInstall`.
 
 ## YouCompleteMe
