@@ -9,6 +9,14 @@ MacOS comes with System Integrity Protection turned on.
 
 [Turn it off before doing anything else.](https://www.macworld.co.uk/how-to/mac/how-turn-off-mac-os-x-system-integrity-protection-rootless-3638975/)
 
+# Set up displays
+
+[Read this deep dive](https://tonsky.me/blog/monitors/), Cmd+F for "Retina Macbooks," and update display settings accordingly.
+
+Things to look out for:
+* font smoothing
+* display resolution (make sure to use integer scaling)
+
 # Install utils
 
 ## Homebrew
@@ -21,8 +29,13 @@ Then, use Brew to install the following:
 brew install ruby scmpuff sqlite thefuck macvim pyenv git zsh go ncurses zsh-syntax-highlighting heroku node htop
 ```
 
+## Input Mono
+
+Install [this typeface.](https://input.fontbureau.com/)
+
 ## Other useful utils and daemons
 
+* https://iterm2.com/
 * https://www.mozilla.org/en-US/firefox/new/
 * https://freedom.to/dashboard
 * https://nordvpn.com/
