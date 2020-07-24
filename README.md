@@ -46,7 +46,7 @@ Install [this typeface.](https://input.fontbureau.com/)
 * https://justgetflux.com/
 * https://keybase.io/download
 * https://www.dropbox.com/downloading
-* https://www.mowglii.com/itsycal/ -- hide icon and use `E, MMM dd | h:mm`
+* https://www.mowglii.com/itsycal/ -- use outline icon, show month, show day of week, and use `h:mm`
 
 ## Some useful Firefox extensions
 
