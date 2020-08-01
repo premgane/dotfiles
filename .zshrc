@@ -30,6 +30,8 @@ alias ls="ls -Fa"
 alias lsl="ls -Fal"
 alias sl="ls"
 alias htop="sudo htop"
+alias blog="subl /Users/prem/Desktop/Development/sandbox/premgane.github.io"
+alias blogserve="bundle exec jekyll serve"
 
 # https://github.com/tldr-pages/tldr-python-client
 export TLDR_COLOR_BLANK="white"
@@ -71,6 +73,11 @@ export PATH=${JAVA_HOME}/bin:/usr/local/sbin:$PATH
 
 # Pyenv
 PATH=$(pyenv root)/shims:$PATH
+eval "$(pyenv init -)"
+if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
+
+# Ruby
+PATH=/usr/local/opt/ruby/bin:$HOME/.gem/ruby/2.7.0/bin:$PATH
 
 # https://github.com/zsh-users/zsh-syntax-highlighting
 # Must always be the last line of this file
