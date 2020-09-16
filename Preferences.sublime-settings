@@ -7,17 +7,19 @@
     [
         "Vintage"
     ],
+    "rulers":
+    [
+        80, 120 // first one is wrap limit
+    ],
+    "save_on_focus_lost": true,
     "show_line_endings": true,
     "spacegray_fileicons": true,
     "sublime_goto_layout": "single-panel",
     "tab_completion": false,
     "tab_size": 4,
-    "rulers": [120, 80], // first one is wrap limit
     "theme": "Solarized Space Dark.sublime-theme",
     "translate_tabs_to_spaces": true,
     "trim_automatic_white_space": true,
     "trim_trailing_white_space_on_save": true,
-    // "draw_white_space": "all",
-
-    "save_on_focus_lost": true,
+    "highlight_line": true
 }
