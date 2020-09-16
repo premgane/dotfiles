@@ -64,6 +64,17 @@ Install [this typeface.](https://input.fontbureau.com/)
 * [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/reviews/)
 * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/reviews/)
 
+# iTerm keybindings
+
+Use the `itermkeymap` file to set up Alt+left-arrow and Alt+right-arrow navigation defaults for iTerm.
+
+# Git defaults
+
+```sh
+git config --global push.default current
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
 
 # Use the latest Python version
 
