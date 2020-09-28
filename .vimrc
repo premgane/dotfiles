@@ -14,12 +14,11 @@ set expandtab
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-sensible'
-Plug 'junegunn/vim-github-dashboard'
-Plug 'junegunn/vim-easy-align'
 Plug 'tpope/vim-fugitive'
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'valloric/youcompleteme'
+Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
