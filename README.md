@@ -43,6 +43,7 @@ Install [this typeface.](https://input.fontbureau.com/)
 * [FlyCut clipboard manager](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12)
 * [Hidden Bar to clean up your MacOS menu bar](https://apps.apple.com/app/hidden-bar/id1452453066)
 * https://www.spectacleapp.com/
+* https://breaktimer.app/
 * https://justgetflux.com/
 * https://keybase.io/download
 * https://www.dropbox.com/downloading
@@ -52,6 +53,7 @@ Install [this typeface.](https://input.fontbureau.com/)
 
 * [Amazon Smile](https://addons.mozilla.org/en-US/firefox/addon/amazon-smile/reviews/)
 * [Clear URLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/reviews/)
+* [Old Reddit](https://addons.mozilla.org/en-US/firefox/addon/old-reddit-redirect/)
 * [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/reviews/)
 * [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/reviews/)
 * [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/reviews/)
