@@ -21,6 +21,10 @@ Plug 'valloric/youcompleteme'
 Plug 'airblade/vim-gitgutter'
 Plug 'altercation/vim-colors-solarized'
 
+Plug 'wincent/command-t', {
+  \   'do': 'cd ruby/command-t/ext/command-t && ruby extconf.rb && make'
+  \ }
+
 call plug#end()
 
 " NERDTree config
