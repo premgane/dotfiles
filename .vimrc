@@ -13,25 +13,43 @@ set expandtab
 
 call plug#begin('~/.vim/plugged')
 
+" Sensible defaults
 Plug 'tpope/vim-sensible'
+
+" Git commands using :Git
 Plug 'tpope/vim-fugitive'
+
+" File explorer using C-n
 Plug 'scrooloose/nerdtree'
+
+" Status bar
 Plug 'vim-airline/vim-airline'
+
+" Autocomplete
 Plug 'valloric/youcompleteme'
+
+" Git gutter next to line numbers
 Plug 'airblade/vim-gitgutter'
+
+" Filename search using C-p
+Plug 'ctrlpvim/ctrlp.vim'
+
+" Theme - Solarized
 Plug 'altercation/vim-colors-solarized'
 
-Plug 'wincent/command-t', {
-  \   'do': 'cd ruby/command-t/ext/command-t && ruby extconf.rb && make'
-  \ }
-
 call plug#end()
+
+" CtrlP config
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 
 " NERDTree config
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
-" NERDTress File highlighting
+" NERDTree File highlighting
 function! NERDTreeHighlightFile(extension, fg, bg, guifg, guibg)
  exec 'autocmd filetype nerdtree highlight ' . a:extension .' ctermbg='. a:bg .' ctermfg='. a:fg .' guibg='. a:guibg .' guifg='. a:guifg
  exec 'autocmd filetype nerdtree syn match ' . a:extension .' #^\s\+.*'. a:extension .'$#'
