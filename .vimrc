@@ -34,6 +34,9 @@ Plug 'airblade/vim-gitgutter'
 " Filename search using C-p
 Plug 'ctrlpvim/ctrlp.vim'
 
+" Fade inactive windows
+Plug 'TaDaa/vimade'
+
 " Theme - Solarized
 Plug 'altercation/vim-colors-solarized'
 
