@@ -11,6 +11,9 @@ set number
 set smarttab
 set expandtab
 
+" Share clipboard with OSX
+set clipboard=unnamed
+
 call plug#begin('~/.vim/plugged')
 
 " Sensible defaults
