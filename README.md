@@ -26,7 +26,7 @@ First, install [Homebrew](https://brew.sh/).
 Then, use Brew to install the following:
 
 ```sh
-brew install ruby scmpuff sqlite thefuck macvim pyenv git zsh go ncurses zsh-syntax-highlighting heroku node htop jq
+brew install ruby scmpuff sqlite thefuck macvim pyenv git zsh zsh-syntax-highlighting node htop jq
 ```
 
 ## Input Mono
