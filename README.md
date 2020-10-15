@@ -47,20 +47,21 @@ brew install ruby scmpuff sqlite thefuck macvim pyenv git zsh zsh-syntax-highlig
 
 ## Some useful Firefox extensions
 
-* [Amazon Smile](https://addons.mozilla.org/en-US/firefox/addon/amazon-smile/reviews/)
-* [Clear URLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls/reviews/)
+* [Amazon Smile](https://addons.mozilla.org/en-US/firefox/addon/amazon-smile)
+* [Clear URLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls)
 * [Old Reddit](https://addons.mozilla.org/en-US/firefox/addon/old-reddit-redirect/)
-* [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/reviews/)
-* [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube/reviews/)
-* [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container/reviews/)
-* [Google Search Link Fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix/reviews/)
-* [Instapaper](https://addons.mozilla.org/en-US/firefox/addon/instapaper-official/reviews/)
-* [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager/reviews/)
-* [Library Extension](https://addons.mozilla.org/en-US/firefox/addon/libraryextension/reviews/)
-* [Momentum](https://addons.mozilla.org/en-US/firefox/addon/momentumdash/reviews/)
-* [EFF Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/reviews/)
-* [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/reviews/)
-* [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/reviews/)
+* [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes)
+* [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube)
+* [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container)
+* [Google Search Link Fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix)
+* [Instapaper](https://addons.mozilla.org/en-US/firefox/addon/instapaper-official)
+* [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager)
+* [Library Extension](https://addons.mozilla.org/en-US/firefox/addon/libraryextension)
+* [Momentum](https://addons.mozilla.org/en-US/firefox/addon/momentumdash)
+* [EFF Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17)
+* [I don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)
+* [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker)
+* [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
 
 ## IBM Plex
 
@@ -131,4 +132,3 @@ mv solarized.vim ~/.vim/colors
 ## MacVim appearance
 
 Use the custom font, same font size as iTerm.
-
