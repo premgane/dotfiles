@@ -29,10 +29,6 @@ Then, use Brew to install the following:
 brew install ruby scmpuff sqlite thefuck macvim pyenv git zsh zsh-syntax-highlighting node htop jq
 ```
 
-## Input Mono
-
-Install [this typeface.](https://input.fontbureau.com/)
-
 ## Other useful utils and daemons
 
 * https://iterm2.com/
@@ -66,9 +62,19 @@ Install [this typeface.](https://input.fontbureau.com/)
 * [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker/reviews/)
 * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/reviews/)
 
-# iTerm keybindings
+## IBM Plex
+
+Install [this typeface.](https://www.ibm.com/plex/)
+
+# iTerm setup
+
+## Keybindings
 
 Use the `itermkeymap` file to set up Alt+left-arrow and Alt+right-arrow navigation defaults for iTerm.
+
+## Theme
+
+Use LaterThisEvening_modified. Use the custom font, size 14.
 
 # Git defaults
 
@@ -121,4 +127,8 @@ cd ~/.vim/plugged/vim-colors-solarized
 mkdir ~/.vim/colors
 mv solarized.vim ~/.vim/colors
 ```
+
+## MacVim appearance
+
+Use the custom font, same font size as iTerm.
 
