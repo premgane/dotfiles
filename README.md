@@ -26,7 +26,7 @@ First, install [Homebrew](https://brew.sh/).
 Then, use Brew to install the following:
 
 ```sh
-brew install ruby scmpuff sqlite thefuck tldr macvim pyenv git zsh zsh-syntax-highlighting node htop jq
+brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-syntax-highlighting node htop jq
 ```
 
 ## Other useful utils and daemons
