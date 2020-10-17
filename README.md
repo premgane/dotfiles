@@ -92,8 +92,8 @@ Use `pyenv versions` to list the installed versions.
 Use `pyenv install` to install the Python version you want, then switch to it globally.
 
 ```sh
-pyenv install 3.6.10
-pyenv global 3.6.10
+pyenv install 3.9.0
+pyenv global 3.9.0
 ```
 
 # Vim plugins
