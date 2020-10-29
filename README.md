@@ -40,6 +40,7 @@ brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-synta
 * [Hidden Bar to clean up your MacOS menu bar](https://apps.apple.com/app/hidden-bar/id1452453066)
 * [Rectangle to manage windows](https://github.com/rxhanson/Rectangle)
 * https://breaktimer.app/
+* [https://getdrafts.com/]
 * https://justgetflux.com/
 * https://keybase.io/download
 * https://www.dropbox.com/downloading
@@ -63,9 +64,15 @@ brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-synta
 * [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker)
 * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
 
+# Fonts
+
 ## IBM Plex
 
-Install [this typeface.](https://www.ibm.com/plex/)
+Install [this typeface for use in text editors and IDEs.](https://www.ibm.com/plex/)
+
+## iA Writer Duospace
+
+Use [this typeface](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace) for writing apps (Drafts specifically).
 
 # iTerm setup
 
