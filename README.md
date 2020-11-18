@@ -29,7 +29,7 @@ Then, use Brew to install the following:
 brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-syntax-highlighting node htop jq
 ```
 
-## Other useful utils and daemons
+## Other useful utils
 
 * https://iterm2.com/
 * https://www.mozilla.org/en-US/firefox/new/
