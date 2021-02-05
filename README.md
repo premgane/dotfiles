@@ -39,7 +39,7 @@ brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-synta
 * [FlyCut clipboard manager](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12)
 * [Hidden Bar to clean up your MacOS menu bar](https://apps.apple.com/app/hidden-bar/id1452453066)
 * [Rectangle to manage windows](https://github.com/rxhanson/Rectangle)
-* https://breaktimer.app/
+* https://tomito.app/
 * [https://getdrafts.com/]
 * https://justgetflux.com/
 * https://keybase.io/download
