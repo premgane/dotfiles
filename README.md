@@ -48,6 +48,7 @@ brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-synta
 
 ## Some useful Firefox extensions
 
+* [Gruvbox Dark theme](https://addons.mozilla.org/en-US/firefox/addon/gruvbox-dark-theme/)
 * [Amazon Smile](https://addons.mozilla.org/en-US/firefox/addon/amazon-smile)
 * [Clear URLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls)
 * [Old Reddit](https://addons.mozilla.org/en-US/firefox/addon/old-reddit-redirect/)
@@ -82,7 +83,7 @@ Use the `itermkeymap` file to set up Alt+left-arrow and Alt+right-arrow navigati
 
 ## Theme
 
-Use LaterThisEvening_modified. Use the custom font, size 14.
+Use Gruvbox Dark to differentiate terminal windows from text editor windows. Use the custom font, size 14.
 
 # Git defaults
 
