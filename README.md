@@ -48,6 +48,7 @@ brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-synta
 
 ## Some useful Firefox extensions
 
+* [1Password](https://1password.com/browsers/firefox/)
 * [Gruvbox Dark theme](https://addons.mozilla.org/en-US/firefox/addon/gruvbox-dark-theme/)
 * [Amazon Smile](https://addons.mozilla.org/en-US/firefox/addon/amazon-smile)
 * [Clear URLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls)
@@ -64,6 +65,7 @@ brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-synta
 * [I don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)
 * [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker)
 * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
+* [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard)
 
 # Fonts
 
