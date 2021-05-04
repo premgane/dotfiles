@@ -73,7 +73,7 @@ Install [this typeface for use in text editors and IDEs.](https://www.ibm.com/pl
 
 ## iA Writer Duospace
 
-Use [this typeface](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace) for writing apps (Drafts specifically).
+Use [this typeface](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace) for writing apps (Drafts and Scrivener specifically).
 
 # iTerm setup
 
@@ -83,7 +83,7 @@ Use the `itermkeymap` file to set up Alt+left-arrow and Alt+right-arrow navigati
 
 ## Theme
 
-Use Gruvbox Dark to differentiate terminal windows from text editor windows. Use the custom font, size 14.
+Use Gruvbox Dark (contrast: hard) to differentiate terminal windows from text editor windows. Use the custom font, size 14.
 
 # Git defaults
 
