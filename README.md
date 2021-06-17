@@ -60,7 +60,7 @@ brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-synta
 * [Instapaper](https://addons.mozilla.org/en-US/firefox/addon/instapaper-official)
 * [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager)
 * [Library Extension](https://addons.mozilla.org/en-US/firefox/addon/libraryextension)
-* [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search), configured with just time and weather.
+* [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search), configured using `tabliss.json` in this repo.
 * [EFF Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17)
 * [I don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)
 * [Shut Up: Comment Blocker](https://addons.mozilla.org/en-US/firefox/addon/shut-up-comment-blocker)
