@@ -57,7 +57,7 @@ brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-synta
 * [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container)
 * [Google Search Link Fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix)
 * [Instapaper](https://addons.mozilla.org/en-US/firefox/addon/instapaper-official)
-* [LastPass](https://addons.mozilla.org/en-US/firefox/addon/lastpass-password-manager)
+* [1Password](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
 * [Library Extension](https://addons.mozilla.org/en-US/firefox/addon/libraryextension)
 * [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search), configured using `tabliss.json` in this repo.
 * [EFF Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17)
