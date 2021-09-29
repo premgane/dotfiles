@@ -26,7 +26,7 @@ First, install [Homebrew](https://brew.sh/).
 Then, use Brew to install the following:
 
 ```sh
-brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-syntax-highlighting node htop jq ffmpeg youtube-dl
+brew install go pyenv node ruby git htop jq sqlite scmpuff thefuck tealdeer macvim zsh zsh-syntax-highlighting ffmpeg youtube-dl
 ```
 
 ## Other useful utils
@@ -36,14 +36,14 @@ brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-synta
 * https://freedom.to/dashboard
 * [Amphetamine for easy screen sleep management](https://apps.apple.com/us/app/amphetamine/id937984704?mt=12)
 * [FlyCut clipboard manager](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12)
+* [itsycal for calendar in menu bar](https://www.mowglii.com/itsycal/) -- use outline icon, show month & day of week (don't show time as of Big Sur)
 * [Hidden Bar to clean up your MacOS menu bar](https://apps.apple.com/app/hidden-bar/id1452453066)
 * [Rectangle to manage windows](https://github.com/rxhanson/Rectangle)
-* https://tomito.app/ -- hide widget, show menu bar icon
-* https://getdrafts.com/
-* https://justgetflux.com/
-* https://keybase.io/download
-* https://www.dropbox.com/downloading
-* https://www.mowglii.com/itsycal/ -- use outline icon, show month, show day of week, and use `h:mm`
+* [Tomito for Pomodoro](https://tomito.app/) -- hide widget, show menu bar icon
+* [Drafts for quick text editing](https://getdrafts.com/)
+* [f.lux is still better than MacOS screen color temp mgmt](https://justgetflux.com/)
+* [Keybase](https://keybase.io/download)
+* [Dropbox](https://www.dropbox.com/downloading)
 
 ## Some useful Firefox extensions
 
@@ -68,19 +68,19 @@ brew install ruby scmpuff sqlite thefuck tealdeer macvim pyenv git zsh zsh-synta
 
 # Fonts
 
-## IBM Plex
+## For IDEs and text editors
 
-Install [this typeface for use in text editors and IDEs.](https://www.ibm.com/plex/)
+Install [IBM Plex,](https://www.ibm.com/plex/) also in this repo under `fonts/`.
 
-## iA Writer Duospace
+## For writing
 
-Use [this typeface](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace) for writing apps (Drafts and Scrivener specifically).
+Use [iA Writer Duospace](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace) for writing apps (Drafts and Scrivener specifically). This is also in `fonts/`.
 
 # iTerm setup
 
 ## Keybindings
 
-Use the `itermkeymap` file to set up Alt+left-arrow and Alt+right-arrow navigation defaults for iTerm.
+Use the `itermkeymap` file in this repo to set up Alt+left-arrow and Alt+right-arrow navigation defaults for iTerm.
 
 ## Theme
 
