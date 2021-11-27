@@ -42,7 +42,8 @@ brew install go pyenv node ruby git htop jq sqlite scmpuff thefuck tealdeer macv
 * [Tomito for Pomodoro](https://tomito.app/) -- hide widget, show menu bar icon
 * [Drafts for quick text editing](https://getdrafts.com/)
 * [f.lux is still better than MacOS screen color temp mgmt](https://justgetflux.com/)
-* [Grand Perspective](http://grandperspectiv.sourceforge.net/)
+* [Grand Perspective for disk space management](http://grandperspectiv.sourceforge.net/)
+* [AppCleaner to uninstall applications](https://freemacsoft.net/appcleaner/)
 * [Keybase](https://keybase.io/download)
 * [Dropbox](https://www.dropbox.com/downloading)
 
