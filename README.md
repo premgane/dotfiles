@@ -41,6 +41,8 @@ brew install go pyenv node ruby git htop jq sqlite scmpuff thefuck tealdeer macv
 * [Rectangle to manage windows](https://github.com/rxhanson/Rectangle)
 * [Tomito for Pomodoro](https://tomito.app/) -- hide widget, show menu bar icon
 * [Drafts for quick text editing](https://getdrafts.com/)
+* [Obsidian](https://obsidian.md/)
+* [Bear](https://bear.app/)
 * [f.lux is still better than MacOS screen color temp mgmt](https://justgetflux.com/)
 * [Grand Perspective for disk space management](http://grandperspectiv.sourceforge.net/)
 * [AppCleaner to uninstall applications](https://freemacsoft.net/appcleaner/)
