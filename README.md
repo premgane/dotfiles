@@ -87,7 +87,7 @@ Use the `itermkeymap` file in this repo to set up Alt+left-arrow and Alt+right-a
 
 ## Theme
 
-Use Gruvbox Dark (contrast: hard) to differentiate terminal windows from text editor windows. Use the custom font, size 14.
+Use Gruvbox Dark (contrast: hard) to differentiate terminal windows from text editor windows. Use the custom font, size 13.
 
 # Git defaults
 
