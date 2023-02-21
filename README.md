@@ -53,7 +53,6 @@ brew install go pyenv node ruby git htop jq sqlite scmpuff thefuck tealdeer macv
 
 * [1Password](https://1password.com/browsers/firefox/)
 * [Gruvbox Dark theme](https://addons.mozilla.org/en-US/firefox/addon/gruvbox-dark-theme/)
-* [Amazon Smile](https://addons.mozilla.org/en-US/firefox/addon/amazon-smile)
 * [Clear URLs](https://addons.mozilla.org/en-US/firefox/addon/clearurls)
 * [Old Reddit](https://addons.mozilla.org/en-US/firefox/addon/old-reddit-redirect/)
 * [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes)
