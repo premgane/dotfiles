@@ -26,7 +26,7 @@ First, install [Homebrew](https://brew.sh/).
 Then, use Brew to install the following:
 
 ```sh
-brew install go pyenv node ruby git htop jq sqlite scmpuff thefuck tealdeer macvim zsh zsh-syntax-highlighting ffmpeg youtube-dl
+brew install go pyenv node ruby git htop jq sqlite scmpuff tealdeer macvim zsh zsh-syntax-highlighting ffmpeg youtube-dl
 ```
 
 ## Other useful utils

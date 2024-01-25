@@ -9,8 +9,8 @@ compinit
 # End of lines added by compinstall
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
-HISTSIZE=1000
-SAVEHIST=1000
+HISTSIZE=50000
+SAVEHIST=50000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
@@ -39,9 +39,6 @@ export TLDR_COLOR_NAME="cyan"
 export TLDR_COLOR_DESCRIPTION="white"
 export TLDR_COLOR_EXAMPLE="green"
 export TLDR_COLOR_COMMAND="white"
-
-# https://github.com/nvbn/thefuck
-eval $(thefuck --alias wups)
 
 # https://github.com/mroth/scmpuff
 eval "$(scmpuff init -s)"
