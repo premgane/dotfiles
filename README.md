@@ -118,3 +118,8 @@ I use https://github.com/junegunn/vim-plug because it's more lightweight than Vu
 [Installation instructions](https://github.com/junegunn/vim-plug#installation)
 
 You'll need to open `vim`, then run `:PlugInstall`.
+
+## YouCompleteMe
+
+The autocompleter plugin takes more steps. Follow the [YouCompleteMe installation guide.](https://github.com/ycm-core/YouCompleteMe?tab=readme-ov-file#macos)
+
