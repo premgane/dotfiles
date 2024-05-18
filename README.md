@@ -19,23 +19,7 @@ Things to look out for:
 
 # Install utils
 
-## Homebrew
-
-First, install [Homebrew](https://brew.sh/).
-
-Then, use Brew to install the following:
-
-```sh
-brew install go pyenv node ruby git htop jq sqlite scmpuff tealdeer macvim zsh zsh-syntax-highlighting ffmpeg youtube-dl
-```
-
-## oh-my-zsh
-
-Follow the installation instructions [for oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh?tab=readme-ov-file#basic-installation)
-
-Then, use the `.zshrc` specified in this repo.
-
-## Other useful utils
+## macOS apps
 
 * https://iterm2.com/
 * https://www.mozilla.org/en-US/firefox/new/
@@ -54,7 +38,7 @@ Then, use the `.zshrc` specified in this repo.
 * [Keybase](https://keybase.io/download)
 * [Dropbox](https://www.dropbox.com/downloading)
 
-## Some useful Firefox extensions
+## Firefox extensions
 
 * [1Password](https://1password.com/browsers/firefox/)
 * [Gruvbox Dark theme](https://addons.mozilla.org/en-US/firefox/addon/gruvbox-dark-theme/)
@@ -92,6 +76,24 @@ Use the `itermkeymap` file in this repo to set up Alt+left-arrow and Alt+right-a
 
 Use Gruvbox Dark (contrast: hard) to differentiate terminal windows from text editor windows. Use the custom font, size 13.
 
+Do this by importing the `itermcolors` file included in this repo.
+
+## Homebrew
+
+Install [Homebrew](https://brew.sh/).
+
+Then, use Brew to install the following:
+
+```sh
+brew install go pyenv node ruby git htop jq sqlite scmpuff tealdeer macvim zsh zsh-syntax-highlighting ffmpeg youtube-dl
+```
+
+## oh-my-zsh
+
+Follow the installation instructions [for oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh?tab=readme-ov-file#basic-installation)
+
+Then, use the `.zshrc` specified in this repo.
+
 # Git defaults
 
 ```sh
@@ -103,8 +105,6 @@ git config --global user.name "Your Name"
 # GitHub SSH
 
 [Follow the instructions here to set up GitHub SSH auth.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-
-Then, you can clone this repo.
 
 # Use the latest Python version
 
