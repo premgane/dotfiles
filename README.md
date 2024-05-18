@@ -117,7 +117,7 @@ I use https://github.com/junegunn/vim-plug because it's more lightweight than Vu
 
 [Installation instructions](https://github.com/junegunn/vim-plug#installation)
 
-You'll need to open `vim` (which is aliased to `mvim` for MacVim in my `.zshrc`), then run `:PlugInstall`.
+You'll need to open `vim`, then run `:PlugInstall`.
 
 ## YouCompleteMe
 
