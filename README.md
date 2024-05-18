@@ -72,12 +72,6 @@ Then, use the `.zshrc` specified in this repo.
 * [uBlock Origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
 * [Auto Tab Discard](https://addons.mozilla.org/en-US/firefox/addon/auto-tab-discard)
 
-# GitHub SSH
-
-[Follow the instructions here to set up GitHub SSH auth.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-
-Then, you can clone this repo.
-
 # Fonts
 
 ## For IDEs and text editors
@@ -105,6 +99,12 @@ git config --global push.default current
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
+
+# GitHub SSH
+
+[Follow the instructions here to set up GitHub SSH auth.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+
+Then, you can clone this repo.
 
 # Use the latest Python version
 
