@@ -29,6 +29,12 @@ Then, use Brew to install the following:
 brew install go pyenv node ruby git htop jq sqlite scmpuff tealdeer macvim zsh zsh-syntax-highlighting ffmpeg youtube-dl
 ```
 
+## oh-my-zsh
+
+Follow the installation instructions [for oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh?tab=readme-ov-file#basic-installation)
+
+Then, use the `.zshrc` specified in this repo.
+
 ## Other useful utils
 
 * https://iterm2.com/
@@ -57,10 +63,8 @@ brew install go pyenv node ruby git htop jq sqlite scmpuff tealdeer macvim zsh z
 * [Decentraleyes](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes)
 * [Enhancer for YouTube](https://addons.mozilla.org/en-US/firefox/addon/enhancer-for-youtube)
 * [Facebook Container](https://addons.mozilla.org/en-US/firefox/addon/facebook-container)
-* [Google Search Link Fix](https://addons.mozilla.org/en-US/firefox/addon/google-search-link-fix)
-* [Instapaper](https://addons.mozilla.org/en-US/firefox/addon/instapaper-official)
 * [1Password](https://addons.mozilla.org/en-US/firefox/addon/1password-x-password-manager/)
-* [Library Extension](https://addons.mozilla.org/en-US/firefox/addon/libraryextension)
+* [Instapaper](https://www.instapaper.com/save/browser)
 * [Tabliss](https://addons.mozilla.org/en-US/firefox/addon/tabliss/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search), configured using `tabliss.json` in this repo.
 * [EFF Privacy Badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17)
 * [I don't care about cookies](https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/)
