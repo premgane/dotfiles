@@ -118,32 +118,3 @@ I use https://github.com/junegunn/vim-plug because it's more lightweight than Vu
 [Installation instructions](https://github.com/junegunn/vim-plug#installation)
 
 You'll need to open `vim`, then run `:PlugInstall`.
-
-## YouCompleteMe
-
-To get YouCompleteMe to work, you need to make sure you're using Macvim (installed with Homebrew). Then, build it on your machine.
-
-```sh
-brew install cmake macvim python
-brew install mono go nodejs
-cd ~/.vim/plugged/youcompleteme
-./install.py --all
-```
-
-[Full installation instructions here.](https://github.com/ycm-core/YouCompleteMe#installation)
-
-## Solarized Dark
-
-Follow the instructions here: https://vimawesome.com/plugin/vim-colors-solarized-ours
-
-Basically, after `:PlugInstall` has run:
-
-```sh
-cd ~/.vim/plugged/vim-colors-solarized
-mkdir ~/.vim/colors
-mv solarized.vim ~/.vim/colors
-```
-
-## MacVim appearance
-
-Use the custom font, same font size as iTerm.
