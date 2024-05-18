@@ -134,3 +134,13 @@ cd ~/.vim/plugged/youcompleteme
 python install.py --all
 ```
 
+# Sublime Text
+
+[Install Package Control](https://packagecontrol.io/installation)
+
+Then, install these packages:
+
+* Solarized Color Scheme (this is the text area color scheme)
+* Theme - Solarized Space (this is the UI color scheme)
+
+Then, use the preferences file in this repo.
