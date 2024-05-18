@@ -5,7 +5,6 @@ syntax on
 
 syntax enable
 set background=dark
-colorscheme solarized
 
 set number
 set smarttab
@@ -39,9 +38,6 @@ Plug 'ctrlpvim/ctrlp.vim'
 
 " Fade inactive windows
 Plug 'TaDaa/vimade'
-
-" Theme - Solarized
-Plug 'altercation/vim-colors-solarized'
 
 call plug#end()
 
