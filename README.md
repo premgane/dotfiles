@@ -121,5 +121,10 @@ You'll need to open `vim`, then run `:PlugInstall`.
 
 ## YouCompleteMe
 
-The autocompleter plugin takes more steps. Follow the [YouCompleteMe installation guide.](https://github.com/ycm-core/YouCompleteMe?tab=readme-ov-file#macos)
+The autocompleter plugin takes more steps. Follow the [YouCompleteMe installation guide.](https://github.com/ycm-core/YouCompleteMe?tab=readme-ov-file#macos) If you've already installed `pyenv` and set the global Python version to `3.0` or above, then you can do:
+
+```sh
+cd ~/.vim/plugged/youcompleteme
+python install.py --all
+```
 
