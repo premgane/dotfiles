@@ -124,7 +124,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-alias gits="git branch -v; printf \"\n\"; gs || git status"
+alias gits="git --no-pager branch -v; print '\n'; gs || git status"
 alias ls="ls -Fa"
 alias lsl="ls -Fal"
 alias sl="ls"
