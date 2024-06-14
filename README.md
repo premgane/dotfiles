@@ -85,7 +85,7 @@ Install [Homebrew](https://brew.sh/).
 Then, use Brew to install the following:
 
 ```sh
-brew install go pyenv node ruby git htop jq sqlite scmpuff tealdeer zsh zsh-syntax-highlighting ffmpeg youtube-dl
+brew install go pyenv conda node ruby git htop jq sqlite scmpuff tealdeer zsh zsh-syntax-highlighting ffmpeg youtube-dl
 ```
 
 ## oh-my-zsh
