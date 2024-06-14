@@ -64,7 +64,7 @@ Install [IBM Plex,](https://www.ibm.com/plex/) also in this repo under `fonts/`.
 
 ## For writing
 
-Use [iA Writer Duospace](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duospace) for writing apps (Drafts and Scrivener specifically). This is also in `fonts/`.
+Use [iA Writer Duo](https://github.com/iaolo/iA-Fonts/tree/master/iA%20Writer%20Duo) for writing apps (Drafts and Scrivener specifically). This is also in `fonts/`.
 
 # iTerm setup
 
