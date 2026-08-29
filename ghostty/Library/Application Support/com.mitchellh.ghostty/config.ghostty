@@ -33,10 +33,18 @@ palette = 14=#7db669
 palette = 15=#e6d4a3
 
 # Bright bold text, like iTerm "Use Bright Bold"
-bold-is-bright = true
+# (bold-is-bright is deprecated since 1.2.0; bold-color = bright is the replacement)
+bold-color = bright
 
-# iTerm profile had background blur enabled (no transparency)
+# iTerm profile had background blur enabled
+# blur is only visible with background-opacity < 1
+background-opacity = 0.95
 background-blur = 20
 
 # Automatically copy on select
-copy-on-select = true
+# On macOS, `true` copies to Ghostty's internal selection pasteboard, not the
+# system clipboard — use `clipboard` to always write to the system clipboard.
+# Known issue: on macOS 26 (Tahoe) some users report even `clipboard` only
+# writes the private pasteboard (ghostty-org/ghostty discussion #5994, issue #12668).
+# Verify with: select text in Ghostty, then run `pbpaste` in another app.
+copy-on-select = clipboard
