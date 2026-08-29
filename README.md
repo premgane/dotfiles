@@ -28,6 +28,14 @@ Things to look out for:
 * [FlyCut clipboard manager](https://apps.apple.com/us/app/flycut-clipboard-manager/id442160987?mt=12)
 * [itsycal for calendar in menu bar](https://www.mowglii.com/itsycal/) -- use outline icon, show month & day of week (don't show time as of Big Sur)
 * [Hidden Bar to clean up your MacOS menu bar](https://apps.apple.com/app/hidden-bar/id1452453066)
+
+# Ghostty
+
+Copy the config into place:
+
+```sh
+cp ghostty.config "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
+```
 * [Rectangle to manage windows](https://github.com/rxhanson/Rectangle)
 * [Tomito for Pomodoro](https://tomito.app/) -- hide widget, show menu bar icon
 * [Drafts for quick text editing](https://getdrafts.com/)
