@@ -39,10 +39,7 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 
 ## zsh bindkeys
-
-# by default: export WORDCHARS='*?_-.[]~=/&;!#$%^(){}<>'
-# we take out the slash, period, angle brackets, dash here.
-export WORDCHARS='*?_[]~=&;!#$%^(){}'
+# WORDCHARS now set in ~/.zshenv
 
 ## end zsh bindkeys
 
@@ -130,16 +127,11 @@ alias lsl="ls -Fal"
 alias sl="ls"
 alias htop="sudo htop"
 
-# https://github.com/tldr-pages/tldr-python-client
-export TLDR_COLOR_BLANK="white"
-export TLDR_COLOR_NAME="cyan"
-export TLDR_COLOR_DESCRIPTION="white"
-export TLDR_COLOR_EXAMPLE="green"
-export TLDR_COLOR_COMMAND="white"
+# tldr color config now lives in ~/.zshenv
 
 
 # https://github.com/mroth/scmpuff
-eval "$(scmpuff init -s)"
+eval "$(/opt/homebrew/bin/scmpuff init -s)"
 
 # Assuming it's not Sublime Text 2
 alias subl="open -a Sublime\ Text"
@@ -157,8 +149,7 @@ chpwd_functions=(dir_in_title)
 # timestamp on the right
 RPROMPT='[%*]'
 
-# Pyenv
-PATH=$(pyenv root)/shims:$PATH
+# Pyenv init (shims PATH is added in ~/.zshenv)
 eval "$(pyenv init -)"
 if which pyenv-virtualenv-init > /dev/null; then eval "$(pyenv virtualenv-init -)"; fi
 
