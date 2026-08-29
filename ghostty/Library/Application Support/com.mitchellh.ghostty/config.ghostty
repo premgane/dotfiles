@@ -9,6 +9,8 @@ background = #1e1e1e
 foreground = #e6d4a3
 cursor-color = #e6d4a3
 cursor-text = #1e1e1e
+cursor-style = block
+cursor-style-blink = false
 selection-background = #e6d4a3
 selection-foreground = #534a42
 
@@ -35,3 +37,6 @@ bold-is-bright = true
 
 # iTerm profile had background blur enabled (no transparency)
 background-blur = 20
+
+# Automatically copy on select
+copy-on-select = true
