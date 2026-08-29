@@ -29,13 +29,46 @@ Things to look out for:
 * [itsycal for calendar in menu bar](https://www.mowglii.com/itsycal/) -- use outline icon, show month & day of week (don't show time as of Big Sur)
 * [Hidden Bar to clean up your MacOS menu bar](https://apps.apple.com/app/hidden-bar/id1452453066)
 
-# Ghostty
+# Dotfile management (GNU Stow)
 
-Copy the config into place:
+This repo is a [GNU Stow](https://www.gnu.org/software/stow/) "farm": each
+top-level directory is a package whose contents mirror home-relative paths.
+Stow symlinks them into `$HOME`.
+
+```
+zsh/.zshrc                  -> ~/.zshrc
+zsh/.zshenv                 -> ~/.zshenv
+vim/.vimrc                  -> ~/.vimrc
+ghostty/Library/.../config.ghostty -> ~/Library/Application Support/com.mitchellh.ghostty/config.ghostty
+iterm2/...                  -> ~ (iTerm keybindings + color schemes; import manually)
+sublime/Library/...         -> ~/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings
+tabliss/tabliss.json        -> ~/tabliss.json
+```
+
+## Install everything
 
 ```sh
-cp ghostty.config "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
+git clone git@github.com:premgane/dotfiles.git
+cd dotfiles
+./install.sh        # installs stow, symlinks all packages, unzips fonts
 ```
+
+## Adding a new config
+
+Create a package dir that mirrors the home-relative path, move the file in with
+`git mv`, then `stow -t ~ <package>`. Use `stow --restow <package>` after edits
+that add files.
+
+## Notes
+
+* `.zshenv` holds env vars only (sourced by every zsh, including non-interactive
+  shells spawned by tools like Claude Code); `.zshrc` holds interactive config.
+* iTerm2 keybindings/color schemes need a manual import: iTerm2 → Settings →
+  Profiles → Keys → Presets → Import (keybindings), and Color Presets → Import
+  (`iterm2/shell_color_schemes/`).
+* Ghostty config is symlinked by stow; edits apply live (⌘+Shift+, to reload).
+* Sublime: `stow` replaces `Preferences.sublime-settings` with a symlink —
+  quit Sublime first.
 * [Rectangle to manage windows](https://github.com/rxhanson/Rectangle)
 * [Tomito for Pomodoro](https://tomito.app/) -- hide widget, show menu bar icon
 * [Drafts for quick text editing](https://getdrafts.com/)

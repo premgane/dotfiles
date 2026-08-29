@@ -1,0 +1,26 @@
+{
+	"auto_complete_function_params": "required",
+	"color_scheme": "Packages/Solarized Color Scheme/Solarized (dark).sublime-color-scheme",
+	"font_face": "IBM Plex Mono",
+	"font_size": 14,
+	"ignored_packages":
+	[
+		"Package Control",
+		"Vintage",
+	],
+	"rulers":
+	[
+		120,
+		80
+	],
+	"save_on_focus_lost": true,
+	"show_line_endings": true,
+	"spacegray_fileicons": true,
+	"sublime_goto_layout": "single-panel",
+	"tab_completion": false,
+	"tab_size": 4,
+	"theme": "Solarized Space Dark.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_automatic_white_space": true,
+	"trim_trailing_white_space_on_save": true,
+}
